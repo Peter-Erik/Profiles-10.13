@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DisableLoginItemsSuppression</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Login Items:  Network Share Point</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.mac.hubrecht.eu.340e5350-6435-0133-b405-002436f36d72.alacarte.loginitems.9f58de20-6435-0133-b407-002436f36d72.loginwindow</string>
+			<key>PayloadType</key>
+			<string>loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>d4d78514-2a5d-adc2-ec91-33b62cd2dee6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>AutoLaunchedApplicationDictionary-managed</key>
+			<array>
+				<dict>
+					<key>AuthenticateAsLoginUserShortName</key>
+					<true/>
+					<key>Hide</key>
+					<false/>
+					<key>URL</key>
+					<string>smb://srv-data1/temp</string>
+				</dict>
+				<dict>
+					<key>AuthenticateAsLoginUserShortName</key>
+					<true/>
+					<key>Hide</key>
+					<false/>
+					<key>URL</key>
+					<string>smb://srv-data1/dataniob</string>
+				</dict>
+				<dict>
+					<key>AuthenticateAsLoginUserShortName</key>
+					<true/>
+					<key>Hide</key>
+					<false/>
+					<key>URL</key>
+					<string>smb://src-data1/home$/</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Login Items:  Managed Items</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.mac.hubrecht.eu.340e5350-6435-0133-b405-002436f36d72.alacarte.loginitems.9f58de20-6435-0133-b407-002436f36d72.managed</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginitems.managed</string>
+			<key>PayloadUUID</key>
+			<string>f2f61f22-d6be-355e-d6e5-a103f424170a</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Network disk mount 10.13 - 2017</string>
+	<key>PayloadDisplayName</key>
+	<string>Settings for Network mount</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.mdm.mac.hubrecht.eu.340e5350-6435-0133-b405-002436f36d72.alacarte</string>
+	<key>PayloadOrganization</key>
+	<string>IT - Hubrecht Institute</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>340e5350-6435-0133-b405-002436f36d72</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
